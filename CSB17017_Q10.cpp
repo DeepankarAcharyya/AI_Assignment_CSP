@@ -7,6 +7,7 @@ Sessional II : CO401 : Artificial Intelligence
 #include <string>
 #include <map>
 #include <vector>
+#include <conio.h>
 
 using namespace std;
 
@@ -156,6 +157,8 @@ int main()
     for (i = 0; i < 10; ++i)
         cout << i << " ";
     cout << endl;
+    cout << "\n<Press Enter to continue>" << endl;
+    getch();
 
     //PART 2 : Searching for the solution
     cout << "\nPART 2 : Searching for the solution " << endl;
@@ -185,6 +188,7 @@ int main()
     {
         cout << "SOLUTION NOT FOUND!!!" << endl;
     }
+    getch();
 
     return 0;
 }
